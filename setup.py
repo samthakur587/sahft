@@ -24,14 +24,14 @@ def get_version():
 
 
 setuptools.setup(
-    name="sahi",
+    name="sahft",
     version=get_version(),
-    author="OBSS",
+    author="samthakur",
     license="MIT",
-    description="A vision library for performing sliced inference on large images/small objects",
+    description="A vision library for object detection. train and inference on large images/small objects",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    url="https://github.com/obss/sahi",
+    url="https://github.com/samthakur587/sahft",
     packages=setuptools.find_packages(exclude=["demo", "docs", "resources", "tests", "scripts"]),
     python_requires=">=3.6",
     install_requires=get_requirements(),
