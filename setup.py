@@ -33,7 +33,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/samthakur587/sahft",
     packages=setuptools.find_packages(exclude=["demo", "docs", "resources", "tests", "scripts"]),
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     install_requires=get_requirements(),
     extras_require={
         "tests": ["mmdet==3.0.0", "pycocotools==2.0.6"],
